@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-29T09:25:14 IST" name="Default suite" finished-at="2022-05-29T09:25:26 IST" duration-ms="12162">
+    <groups>
+    </groups>
+    <test started-at="2022-05-29T09:25:14 IST" name="Default test" finished-at="2022-05-29T09:25:26 IST" duration-ms="12162">
+      <class name="Com.TRSConsultancyServices.TRSskillfill.HeaderLinks">
+        <test-method is-config="true" signature="BrowserOpen()[pri:0, instance:Com.TRSConsultancyServices.TRSskillfill.HeaderLinks@478190fc]" started-at="2022-05-29T09:24:16 IST" name="BrowserOpen" finished-at="2022-05-29T09:25:14 IST" duration-ms="57864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method signature="checknavigation()[pri:0, instance:Com.TRSConsultancyServices.TRSskillfill.HeaderLinks@478190fc]" started-at="2022-05-29T09:25:14 IST" name="checknavigation" finished-at="2022-05-29T09:25:17 IST" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checknavigation -->
+        <test-method signature="findBrokenLinkes()[pri:0, instance:Com.TRSConsultancyServices.TRSskillfill.HeaderLinks@478190fc]" started-at="2022-05-29T09:25:17 IST" name="findBrokenLinkes" finished-at="2022-05-29T09:25:26 IST" duration-ms="9219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBrokenLinkes -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Com.TRSConsultancyServices.TRSskillfill.HeaderLinks@478190fc]" started-at="2022-05-29T09:25:27 IST" name="closeBrowser" finished-at="2022-05-29T09:25:32 IST" duration-ms="4700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Com.TRSConsultancyServices.TRSskillfill.HeaderLinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
