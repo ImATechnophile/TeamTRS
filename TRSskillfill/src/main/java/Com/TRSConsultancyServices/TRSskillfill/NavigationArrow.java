@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class NavigationArrow extends AboutDetails {
+public class NavigationArrow  {
 	
 	@Test
 	public void uparrow() {
