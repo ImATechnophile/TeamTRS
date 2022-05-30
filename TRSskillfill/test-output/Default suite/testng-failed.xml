@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.TRSConsultancyServices.TRSskillfill.BrowserQuite">
+      <class name="Com.TRSConsultancyServices.TRSskillfill.Services">
         <methods>
-          <include name="checknavigation"/>
-          <include name="findBrokenLinkes"/>
-          <include name="closeBrowser"/>
-          <include name="BrowserOpen"/>
+          <include name="ser"/>
         </methods>
-      </class> <!-- Com.TRSConsultancyServices.TRSskillfill.BrowserQuite -->
+      </class> <!-- Com.TRSConsultancyServices.TRSskillfill.Services -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
