@@ -55,7 +55,7 @@ public class Footer_part extends LeaveMessage {
 		driver.navigate().back();
 
 		driver.findElement(By.xpath("//*[text()='Portfolio']")).click();
-		boolean urltitle7 = driver.getCurrentUrl().isEmpty();
+		String urltitle7 = driver.getCurrentUrl();
 		System.out.println("Title 7:" + urltitle7);
 		
 		driver.navigate().back();
@@ -68,23 +68,23 @@ public class Footer_part extends LeaveMessage {
 		driver.navigate().refresh();
 		
 		driver.findElement(By.xpath("//*[@class='lni-facebook']")).click();
-		boolean fbenable = driver.getTitle().isEmpty();
-		System.out.println("fb link is enable:" + fbenable);
+		String fblink = driver.getCurrentUrl();
+		System.out.println("fb link is :" + fblink);
 		driver.navigate().refresh();
 
 		driver.findElement(By.xpath("//*[@class='lni-twitter']")).click();
-		boolean twitterenable = driver.getTitle().isEmpty();
-		System.out.println("twitter link is enable:" + twitterenable);
+		String twitterlink = driver.getCurrentUrl();
+		System.out.println("twitter link is:" + twitterlink);
 		driver.navigate().refresh();
 
 		driver.findElement(By.xpath("//*[@class='lni-instagram']")).click();
-		boolean instagramenable = driver.getTitle().isEmpty();
-		System.out.println("instagram link is enable:" + instagramenable);
+		String instagramlink = driver.getCurrentUrl();
+		System.out.println("instagram link is:" + instagramlink);
 		driver.navigate().refresh();
 
 		driver.findElement(By.xpath("//*[@class='lni-linkedin']")).click();
-		boolean linkedinenable = driver.getTitle().isEmpty();
-		System.out.println("linkedin link is enable:" + linkedinenable);
+		String linkedinlink = driver.getCurrentUrl();
+		System.out.println("linkedin link is :" + linkedinlink);
 		driver.navigate().refresh();
 	}
 

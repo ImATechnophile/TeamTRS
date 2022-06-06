@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class WhyUsDetails extends ProductDetails {
-// 8
+public class WhyUsDetails extends ContactUs {
+// 10
 	
 	
 	

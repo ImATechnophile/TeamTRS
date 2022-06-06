@@ -11,8 +11,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ContactUs extends WhyUsDetails {
-	//9
+public class ContactUs extends ProductDetails {
+	//8
 	@Test
 	void Contact() {
 		WebElement contactdetails = driver.findElement(By.xpath("//a[@href='#contact']"));

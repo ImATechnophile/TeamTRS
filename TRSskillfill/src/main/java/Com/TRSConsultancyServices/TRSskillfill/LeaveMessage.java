@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class LeaveMessage extends  ContactUs {
-	//10
+	//9
 	@Test
 	void PerDetails() {
 		WebElement detailsname = driver.findElement(By.xpath("//input[@name='name']"));
