@@ -12,20 +12,12 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ProductDetails {
-	public WebDriver driver;
-	
-	@Test(priority = 0)
-	public void LaunchApp() throws InterruptedException {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.manage().window().maximize();
+public class ProductDetails extends AboutDetails {
 
-		driver.get("https://trsskillfill.com/");
-	}
+	//7
 	
-	@Test(priority = 1)
+	
+	@Test
 	public void Product() throws Exception {
 		driver.findElement(By.className("navbar-btn")).click();
 		Thread.sleep(1000);

@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeSuite;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserLaunch {
-
+  // 1
 	WebDriver driver;
 
 	@BeforeSuite

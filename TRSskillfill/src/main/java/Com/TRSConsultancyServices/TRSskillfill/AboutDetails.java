@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class AboutDetails extends AboutSectionContent {
-	
+	//6
 	SoftAssert soft = new SoftAssert();
 
 	@Test

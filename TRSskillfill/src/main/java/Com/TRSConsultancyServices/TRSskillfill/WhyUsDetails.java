@@ -9,23 +9,16 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class WhyUsDetails {
-	WebDriver driver;
+public class WhyUsDetails extends ProductDetails {
+// 8
 	
-	@Test(priority = 0)
-	public void LaunchApp(){
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.manage().window().maximize();
-
-		driver.get("https://trsskillfill.com/");
-	}
 	
-	@Test(priority = 1)
+	
+	@Test
 	public void WhyUs() throws Exception {
+		//Thread.sleep(1000);
 		driver.findElement(By.xpath("//a[text()='Why us']")).click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		Assert.assertEquals(driver.findElement(By.xpath("//h6[text()='Why Us']")).getText(), "WHY US", "why us is not displayed");
 		System.out.println("Whu Us redirected");
 		Assert.assertTrue(driver.findElement(By.xpath("(//h4[@class='title'])[3]")).isDisplayed());
@@ -48,15 +41,7 @@ public class WhyUsDetails {
 		driver.findElement(By.xpath("//a[@class='main-btn main-btn-2']")).click();
 		
 		
-		
-//		List<WebElement> eles = driver.findElements(By.xpath("//div[@class='service-icon']"));
-//		int number =1;
-//		for (WebElement element : eles) {
-//			Assert.assertTrue( element.isDisplayed(), number+"img is not diplayed");
-//			System.out.println(number +" : img is displayed");
-//			number++;
-//		}
-		
+	
 		
 		
 		

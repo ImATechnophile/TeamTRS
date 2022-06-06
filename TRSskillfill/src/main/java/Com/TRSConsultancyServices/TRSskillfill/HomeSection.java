@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class HomeSection extends BrowserLaunch  {
-	
+	//2
 	String[] broken;
 	String[] unbroken;
 	
